@@ -1,0 +1,102 @@
+{
+    "cbpanel": {
+        "products": {
+            "tab": "cbpanel",
+            "controller": "products",
+            "do": "",
+            "restriction": "products_manage"
+        },
+        "subscriptions": {
+            "tab": "cbpanel",
+            "controller": "subscriptions",
+            "do": "",
+            "restriction": "subscriptions_manage"
+        },
+        "keys": {
+            "tab": "cbpanel",
+            "controller": "keys",
+            "do": "",
+            "restriction": "keys_manage"
+        },
+        "settings": {
+            "tab": "cbpanel",
+            "controller": "settings",
+            "do": "",
+            "restriction": "settings_manage"
+        },
+        "banRecord": {
+            "tab": "cbpanel",
+            "controller": "banRecord",
+            "do": "",
+            "restriction": "banRecord_manage"
+        },
+        "cloudConfig": {
+            "tab": "cbpanel",
+            "controller": "cloudConfig",
+            "do": "",
+            "restriction": "cloudConfig_manage"
+        }
+    },
+    "ipblockpro": {
+        "whitelist": {
+            "tab": "cbpanel",
+            "controller": "whitelist",
+            "do": "",
+            "restriction": "whitelist_manage"
+        },
+        "iplist": {
+            "tab": "cbpanel",
+            "controller": "iplist",
+            "do": "",
+            "restriction": "iplist_manage"
+        }
+    },
+    "testing": {
+        "bugReports": {
+            "tab": "cbpanel",
+            "controller": "bugReports",
+            "do": "",
+            "restriction": "bugReports_manage"
+        }
+    },
+    "reselling": {
+        "manage": {
+            "tab": "cbpanel",
+            "controller": "manage",
+            "do": "",
+            "restriction": "manage_manage"
+        },
+        "resellerKeys": {
+            "tab": "cbpanel",
+            "controller": "resellerKeys",
+            "do": "",
+            "restriction": "resellerKeys_manage"
+        },
+        "adminKeys": {
+            "tab": "cbpanel",
+            "controller": "adminKeys",
+            "do": "",
+            "restriction": "adminKeys_manage"
+        }
+    },
+    "api": {
+        "hwid": {
+            "tab": "cbpanel",
+            "controller": "hwid",
+            "do": "",
+            "restriction": "hwid_manage"
+        },
+        "clog": {
+            "tab": "cbpanel",
+            "controller": "clog",
+            "do": "",
+            "restriction": "clog_manage"
+        },
+        "alog": {
+            "tab": "cbpanel",
+            "controller": "alog",
+            "do": "",
+            "restriction": "alog_manage"
+        }
+    }
+}

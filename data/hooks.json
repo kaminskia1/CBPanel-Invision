@@ -1,0 +1,10 @@
+{
+    "StripeCheckoutGateway": {
+        "type": "C",
+        "class": "\\IPS\\nexus\\Gateway"
+    },
+    "CustomRedirectGateway": {
+        "type": "C",
+        "class": "\\IPS\\nexus\\Gateway"
+    }
+}

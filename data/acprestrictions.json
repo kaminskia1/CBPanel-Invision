@@ -1,0 +1,72 @@
+{
+    "cb": {
+        "test": {
+            "test_manage": "test_manage"
+        }
+    },
+    "test": {
+        "products": {
+            "products_manage": "products_manage"
+        }
+    },
+    "cbpanel": {
+        "cb_subscription": {
+            "subscriptions_manage": "subscriptions_manage"
+        },
+        "cb_keys": {
+            "keys_manage": "keys_manage",
+            "keys_create": "keys_create",
+            "keys_edit": "keys_edit"
+        },
+        "cb_products": {
+            "products_manage": "products_manage"
+        },
+        "cb_analytics": {
+            "analytics_manage": "analytics_manage"
+        },
+        "settings": {
+            "settings_manage": "settings_manage"
+        },
+        "banRecord": {
+            "banRecord_manage": "banRecord_manage"
+        },
+        "cloudConfig": {
+            "cloudConfig_manage": "cloudConfig_manage"
+        }
+    },
+    "ipblockpro": {
+        "whitelist": {
+            "whitelist_manage": "whitelist_manage"
+        },
+        "iplist": {
+            "iplist_manage": "iplist_manage"
+        }
+    },
+    "testing": {
+        "bugReports": {
+            "bugReports_manage": "bugReports_manage"
+        }
+    },
+    "reselling": {
+        "manage": {
+            "manage_manage": "manage_manage"
+        },
+        "resellerKeys": {
+            "resellerKeys_manage": "resellerKeys_manage"
+        },
+        "adminKeys": {
+            "adminKeys_manage": "adminKeys_manage"
+        }
+    },
+    "api": {
+        "hwid": {
+            "hwid_manage": "hwid_manage"
+        },
+        "clog": {
+            "clog_manage": "clog_manage"
+        },
+        "alog": {
+            "alog_manage": "alog_manage"
+        }
+    }
+}

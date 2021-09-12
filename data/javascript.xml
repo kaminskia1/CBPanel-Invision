@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javascript app="cbpanel">
+ <file javascript_app="cbpanel" javascript_location="admin" javascript_path="" javascript_name="settings.js" javascript_type="framework" javascript_version="10035" javascript_position="1000050"><![CDATA[$(document).ready(()=>{
+    $(".ipsButton").click((a)=>{
+        if (confirm("Are you sure you want to save?")) {
+            var headerID = a.currentTarget.classList[1], data;
+            if (headerID == "group") {
+                data = {
+                    blacklist: $("select.ipsSettings_groupSelect").val(),
+                    customerGroup: $("select.ipsSettings_customerSelect").val(),
+                };
+            } else if (headerID === "file") {
+                data = {
+                    apiKey: $("textarea.fileKey").val()
+                };
+            } else if (headerID === "hwid") {
+                data = {
+                    hardwareDuration: Number($("input.ipsSettings_groupSelect").val()),
+                }
+            }
+            $.ajax({
+                type: "POST",
+                url: document.location.href,
+                data: {
+                    update: true,
+                    data: JSON.stringify(data),
+                },
+                success: (a, headerID)=>{
+                    if (headerID === "file") {
+                        alert(a.Message)
+                    } else {
+                        alert(a);
+                    }
+                }
+            });
+        }
+    });
+});]]></file>
+</javascript>

@@ -1,0 +1,39 @@
+{
+    "app=cbpanel&module=cbpanel&controller=products": {
+        "lang_key": "menu_cbpanel_products",
+        "restriction": "products_manage",
+        "keywords": [
+            "cbpanel",
+            "product",
+            "products"
+        ]
+    },
+    "app=cbpanel&module=cbpanel&controller=keys": {
+        "lang_key": "menu_cbpanel_keys",
+        "restriction": "keys_manage",
+        "keywords": [
+            "cbpanel",
+            "generate",
+            "key",
+            "keys",
+            "license",
+            "license keys"
+        ]
+    },
+    "app=cbpanel&module=cbpanel&controller=settings": {
+        "lang_key": "menu__cbpanel_cbpanel_settings",
+        "restriction": "settings_manage",
+        "keywords": [
+            "settings"
+        ]
+    },
+    "app=cbpanel&module=cbpanel&controller=subscriptions": {
+        "lang_key": "menu_cbpanel_subscriptions",
+        "restriction": "subscriptions_manage",
+        "keywords": [
+            "cbpanel",
+            "sub",
+            "subscriptions"
+        ]
+    }
+}

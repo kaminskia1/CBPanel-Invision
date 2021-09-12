@@ -1,0 +1,46 @@
+{
+    "admin": {
+        "cbpanel": {
+            "default_controller": "subscriptions",
+            "protected": 0
+        },
+        "ipblockpro": {
+            "default_controller": "iplist",
+            "protected": 0
+        },
+        "testing": {
+            "default_controller": "",
+            "protected": 0
+        },
+        "reselling": {
+            "default_controller": "",
+            "protected": 0
+        },
+        "api": {
+            "default_controller": "",
+            "protected": false
+        }
+    },
+    "front": {
+        "customer": {
+            "default_controller": "",
+            "protected": 0
+        },
+        "reseller": {
+            "default_controller": "",
+            "protected": 0
+        },
+        "tester": {
+            "default_controller": "",
+            "protected": 0
+        },
+        "redeem": {
+            "default_controller": "",
+            "protected": 0
+        },
+        "legal": {
+            "default_controller": "",
+            "protected": 0
+        }
+    }
+}

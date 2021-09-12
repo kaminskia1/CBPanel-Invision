@@ -1,0 +1,41 @@
+{
+  "topLevel": "",
+  "pages": {
+    "cbpanel_redeem": {
+      "friendly": "redeem",
+      "real": "app=cbpanel&module=redeem&controller=redeem"
+    },
+    "cbpanel_user_panel": {
+      "friendly": "user",
+      "real": "app=cbpanel&module=customer&controller=panel"
+    },
+    "cbpanel_cloud_config": {
+      "friendly": "config",
+      "real": "app=cbpanel&module=customer&controller=cloudConfig"
+    },
+    "cbpanel_ban_report": {
+      "friendly": "report-a-ban",
+      "real": "app=cbpanel&module=customer&controller=banReport"
+    },
+    "cbpanel_bug_report": {
+      "friendly": "report-a-bug",
+      "real": "app=cbpanel&module=tester&controller=bugReport"
+    },
+    "cbpanel_pc_manage": {
+      "friendly": "manage-pc",
+      "real": "app=cbpanel&module=tester&controller=managePC"
+    },
+    "cbpanel_reseller_panel": {
+      "friendly": "reseller",
+      "real": "app=cbpanel&module=reseller&controller=panel"
+    },
+    "cbpanel_reseller_redeem": {
+      "friendly": "reseller/redeem",
+      "real": "app=cbpanel&module=reseller&controller=redeem"
+    },
+    "cbpanel_legal_tos": {
+      "friendly": "terms-of-service",
+      "real": "app=cbpanel&module=legal&controller=terms"
+    }
+  }
+}

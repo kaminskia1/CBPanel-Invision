@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="cbpanel" version="10035">
+  <word key="__app_cbpanel" js="0">Panel</word>
+  <word key="menutab__cbpanel" js="0">CBPanel</word>
+  <word key="menu__cbpanel_cbpanel" js="0">Overview</word>
+  <word key="menu__cbpanel_cbpanel_products" js="0">products</word>
+  <word key="menu__cbpanel_cbpanel_subscriptions" js="0">Subscriptions</word>
+  <word key="menu__cbpanel_cbpanel_keys" js="0">License Keys</word>
+  <word key="menutab__cbpanel_icon" js="0">crosshairs</word>
+  <word key="menu_cbpanel_products" js="0">products</word>
+  <word key="menu_cbpanel_subscriptions" js="0">Subscriptions</word>
+  <word key="menu_cbpanel_keys" js="0">License Keys</word>
+  <word key="menu__cbpanel_cbpanel_settings" js="0">Settings</word>
+  <word key="r__cb_subscription" js="0">Subscriptions</word>
+  <word key="r__cb_products" js="0">Products</word>
+  <word key="r__cb_keys" js="0">Keys</word>
+  <word key="r_subscription_manage" js="0">Can manage Subscriptions?</word>
+  <word key="r__products_manage" js="0">Can manage products?</word>
+  <word key="r__keys_manage" js="0">Can manage Keys?</word>
+  <word key="r__keys_create" js="0">Can create Keys?</word>
+  <word key="r__keys_edit" js="0">Can edit keys?</word>
+  <word key="r__clientlog" js="0">Client Log</word>
+  <word key="r__clientlog_manage" js="0">Can manage Client Log?</word>
+  <word key="r__banRecord" js="0">Ban Record</word>
+  <word key="r__banRecord_manage" js="0">Can manage Ban Record?</word>
+  <word key="r__cloudConfig" js="0">Cloud Config</word>
+  <word key="r__cloudConfig_manage" js="0">Can manage Cloud Config?</word>
+  <word key="r__analytics_manage" js="0">Can manage Analytics?</word>
+  <word key="module__cbpanel_redeem" js="0">Key Redemption</word>
+  <word key="module__cbpanel_customer" js="0">Customer Panel</word>
+  <word key="module__cbpanel_reseller" js="0">Reseller Panel</word>
+  <word key="module__cbpanel_updater" js="0">Updater</word>
+  <word key="module__cbpanel_tester" js="0">Tester Panel</word>
+  <word key="module__cbpanel_settings" js="0">Settings</word>
+  <word key="cbpanel_table_cname" js="0">product Name</word>
+  <word key="cbpanel_table_statusMessage" js="0">Status</word>
+  <word key="cbpanel_table_slots" js="0">Slots</word>
+  <word key="cbpanel_table_button" js="0">Save</word>
+  <word key="cbpanel_table_file" js="0">product File</word>
+  <word key="cbpanel_table_upload" js="0">Upload</word>
+  <word key="block_slotStatus" js="0">product Slots</word>
+  <word key="block_slotStatus_desc" js="0">Display remaining slots per product</word>
+  <word key="block_slotUpdater" js="0">Slot Updater</word>
+  <word key="block_slotUpdater_desc" js="0">Updates remaining product slots upon load</word>
+  <word key="block_productStatus" js="0">product Status</word>
+  <word key="block_productStatus_desc" js="0">Displays the status of all products</word>
+  <word key="memberACPProfileTitle_cbpanel_Main" js="0">Loader View</word>
+  <word key="cbpanel_table_username" js="0">Username</word>
+  <word key="cbpanel_table_group" js="0">Group</word>
+  <word key="cbpanel_table_email" js="0">Email</word>
+  <word key="cbpanel_table_subscription" js="0">Subscription(s)</word>
+  <word key="cbpanel_table_key" js="0">Key(s)</word>
+  <word key="cbpanel_table_view" js="0"></word>
+  <word key="cbpanel_update_products" js="0">Product</word>
+  <word key="cbpanel_update_type" js="0">Type</word>
+  <word key="cbpanel_update_duration" js="0">Day(s)</word>
+  <word key="cbpanel_revoke_id" js="0">Purchase ID</word>
+  <word key="cbpanel_revoke_confirm" js="0">Confirmation (Are you sure?)</word>
+  <word key="cbpanel_product_id" js="0">Product Id</word>
+  <word key="cbpanel_product_name" js="0">Name</word>
+  <word key="cbpanel_product_status_code" js="0">Status Code</word>
+  <word key="cbpanel_product_status_text" js="0">Status Message (Custom)</word>
+  <word key="cbpanel_product_max_slot" js="0">Max Slots</word>
+  <word key="timestamp" js="0">Timestamp</word>
+  <word key="ip" js="0">IP</word>
+  <word key="hwid" js="0">HWID</word>
+  <word key="loader_version" js="0">Version</word>
+  <word key="windows_username" js="0">Windows Username</word>
+  <word key="region_name" js="0">Region</word>
+  <word key="active_login_attempts" js="0">Attempts</word>
+  <word key="login_status" js="0">Status</word>
+  <word key="login_user" js="0">Username</word>
+  <word key="menu__cbpanel_cbpanel_clientlog" js="0">Client Log</word>
+  <word key="menu__cbpanel_cbpanel_banRecord" js="0">Ban Reports</word>
+  <word key="cbpanel_member_id" js="0">Member</word>
+  <word key="cbpanel_ban_uplay" js="0">Uplay Name</word>
+  <word key="cbpanel_ban_start" js="0">Account Purchase Date</word>
+  <word key="cbpanel_ban_end" js="0">Ban Date</word>
+  <word key="cbpanel_ban_service" js="0">Ban Type</word>
+  <word key="cbpanel_ban_duration" js="0">Ban Duration</word>
+  <word key="cbpanel_ban_extra" js="0">Extra Notes</word>
+  <word key="cbpanel_ban_file" js="0">Ban Image</word>
+  <word key="menu__cbpanel_cbpanel_cloudConfig" js="0">Cloud Config</word>
+  <word key="cbpanel_admincc_lang" js="0">Languge Keys</word>
+  <word key="cbpanel_admincc_json" js="0">JSON</word>
+  <word key="__api_cbpanel_productconfig" js="0">Cloud Config</word>
+  <word key="__api_cbpanel_cloudapp" js="0">Cloud App</word>
+  <word key="cbpanel_capture_subscription" js="0">Product to Capture</word>
+  <word key="cbpanel_restore_subscription" js="0">Capture to Restore</word>
+  <word key="cbpanel_restore_remove" js="0">Delete after?</word>
+  <word key="menu__cbpanel_ipblockpro" js="0">VPN / Proxy Blocking</word>
+  <word key="menu__cbpanel_ipblockpro_iplist" js="0">Gathered IPs</word>
+  <word key="menu__cbpanel_ipblockpro_whitelist" js="0">Whitelisted IPs</word>
+  <word key="menu__cbpanel_reselling" js="0">Reselling</word>
+  <word key="cbpanel_ipfilter_value" js="0">Value</word>
+  <word key="cbpanel_ipfilter_ip" js="0">IP</word>
+  <word key="cbpanel_ipfilter_reason" js="0">Reason</word>
+  <word key="id" js="0">Edit/Revoke</word>
+  <word key="time" js="0">Date/Time</word>
+  <word key="reason" js="0">Reason</word>
+  <word key="value" js="0">GetIP-Intel Rating</word>
+  <word key="menu__cbpanel_reselling_manage" js="0">Manage</word>
+  <word key="menu__cbpanel_reselling_resellerKeys" js="0">Reseller Keys</word>
+  <word key="menu__cbpanel_reselling_adminKeys" js="0">Admin Keys</word>
+  <word key="menu__cbpanel_testing" js="0">Testing</word>
+  <word key="menu__cbpanel_testing_bugReports" js="0">Bug Reports</word>
+  <word key="cbpanel_bug_product" js="0">Product</word>
+  <word key="cbpanel_bug_time" js="0">Time of occourance</word>
+  <word key="cbpanel_bug_timezone" js="0">Your timezone</word>
+  <word key="cbpanel_bug_description" js="0">Description of Bug</word>
+  <word key="cbpanel_bug_create" js="0">How did you create the bug?</word>
+  <word key="cbpanel_bug_file" js="0">Image(s), dumps, etc relating to the bug</word>
+  <word key="cbpanel_redeem_header" js="0">Redeem a key</word>
+  <word key="module__cbpanel_legal" js="0">Legal</word>
+  <word key="menu__cbpanel_api" js="0">MS API</word>
+  <word key="menu__cbpanel_api" js="0">MS API</word>
+  <word key="menu__cbpanel_api_hwid" js="0">HWID Alerts</word>
+  <word key="menu__cbpanel_api_clog" js="0">Client Log</word>
+  <word key="menu__cbpanel_api_alog" js="0">Access Log</word>
+  <word key="gateway__StripeCheckout" js="0">Stripe Checkout</word>
+  <word key="stripecheckout_secret_key" js="0">Stripe Secret Key</word>
+  <word key="stripecheckout_secret_key_desc" js="0"></word>
+  <word key="stripecheckout_publishable_key" js="0">Stripe Publishable Key</word>
+  <word key="stripecheckout_type_header" js="0">Payment Method</word>
+  <word key="stripecheckout_type" js="0">Pay By</word>
+  <word key="stripecheckout_type_card" js="0">Card</word>
+  <word key="stripecheckout_type_card_desc" js="0">Users enter their card details directly on the checkout screen.</word>
+  <word key="stripecheckout_webhook" js="0">Webhook</word>
+  <word key="stripecheckout_webhook_blurb" js="0"><![CDATA[You must <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>create a webhook</a> on your Stripe account specifying this URL as the endpoint:<br><pre class='ipsCode'>%s</pre>]]></word>
+  <word key="stripecheckout_webhook_secret" js="0">Webhook Signing Secret</word>
+  <word key="stripecheckout_webhook_secret_desc" js="0">When viewing the webhook in your Stripe account you will see a button to reveal the signing secret. The value will not be verified, so ensure the correct secret is provided.</word>
+  <word key="stripecheckout_basic_settings" js="0">Basic Settings</word>
+  <word key="stripecheckout_keys" js="0">Keys</word>
+  <word key="stripecheckout_keys_blurb" js="0"><![CDATA[Provide the Standard API keys from the <a href='{external.stripe_keys}' target='_blank' rel='noopener'>API section of your Stripe account</a>.]]></word>
+  <word key="stripecheckout_cards" js="0">Allow users to store card details?</word>
+  <word key="stripecheckout_cards_desc" js="0">Card details are stored on Stripe's servers, not your own. Note that 3D Secure isn't performed when using a saved card.</word>
+  <word key="stripecheckout_risk_level" js="0">Stripe risk evaluation: %s</word>
+  <word key="gateway__CustomRedirect" js="0">Custom Redirect</word>
+  <word key="customredirect_basic_settings" js="0">Basic Settings</word>
+  <word key="customredirect_redirect_link" js="0">Redirect</word>
+  <word key="customredirect_redirect_url" js="0">Redirect URL</word>
+ </app>
+</language>
