@@ -6,8 +6,7 @@ Proprietary administration application built upon the [Invision Power Suite v4.0
 (IPS / Invision Community) framework with the primary intent being to better bridge the gap between an IPS installation 
 and proprietary licensed software. This project also brings the implementation of 
 [Stripe Checkout](https://stripe.com/payments/checkout) to IPS, which in the past was not previously available. 
-but yeahThis was completed utilizing 
-the [Stripe PHP API](https://github.com/stripe/stripe-php/releases).
+This was completed utilizing the [Stripe PHP API](https://github.com/stripe/stripe-php/releases).
 
 # Usage
 
