@@ -35,11 +35,11 @@ class _clog extends \IPS\Dispatcher\Controller
 	{
         /* Create the table */
         $table = new \IPS\Helpers\Table\Db( 'client_log', \IPS\Http\Url::internal( 'app=cbpanel&module=cbpanel&controller=clientlog' ) );
-        $table->include = array( 'timestamp','ip','hwid','loader_version','windows_username','country','city','region_name','active_login_attempts','login_status','login_user','message','log_type' );
+        $table->include = array( 'timestamp','ip','hardware','loader_version','windows_username','country','city','region_name','active_login_attempts','login_status','login_user','message','log_type' );
         $table->quickSearch = "login_user";
         $table->parsers = array(
-            'hwid' => function($val, $row) {
-                return "<input readonly class='hwid' value='" . $val . "'>";
+            'hardware' => function($val, $row) {
+                return "<input readonly class='hardware' value='" . $val . "'>";
             }
         );
 
@@ -47,13 +47,13 @@ class _clog extends \IPS\Dispatcher\Controller
         \IPS\Output::i()->title = "Client Log";
         \IPS\Output::i()->output = "
             <style>
-                .hwid {
+                .hardware {
                     background: rgba(0,0,0,0);
                     width: 100%;
                     border: 0px;
                     overflow: hidden;
                 }
-                .hwid:focus {
+                .hardware:focus {
                     outline: 0;
                 }
             </style>
